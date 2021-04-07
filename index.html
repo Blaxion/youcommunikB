@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/app.css">
+</head>
+<!-- Mecha Où çà?
+　　　　　　　　　　　　　　　　　　 　    　 ――i┐
+　　　　　　　　　　　　　　　　　　　 　 　 /：rﾏ,.Ｙ＼
+　　　　　　　　　　　　　 　 　 ＿_　Ｆｌ＿_〉’Y7ﾉ〉_　/７ 　 /￣ ＼
+　　 　 　 　 　 　 　 　 　 　 / ／￣└一'´￣／./ ￣￣ //￣l＼|
+　　　　　　　　　　 　 　 　 〈　l三|￣|　|三三l　〈 ＿＿ // ｢　 ＼l
+　　　　　　 　 　 　 　 　 　 _〉 〉-|一|　|――ﾍ_∧__|　//　　　　｜
+　　　　　　 　 　 　 　 　 ／ )/二|＿|_/￣＼/_/　　| _| |　　　　　〕
+　　　　　　　　　 　 ／￣ /￣〉_/７ //￣〉７7､　　〔」_| |　　　 　 |
+　　　 　 　 　 　 ／ ／) 〈＿/__/　/〈＿/ /// 〉　/　 | |　　　 　 |
+　　 　 　 　 　 // .(／〈_＿_|＿|. 〈＿＿_//〈_/　〈―‐| |　　　 　 |
+　　　　　< ＼// 　 ＿/　　 ＼ ＼_/　　　∨　 〆/＼| |　　　　 /
+　　　　　　,>　_　<´/＼ / 　 / ￣　|　　　 |　　ヽ ＼/| |　　 　 /
+　　　　 ／_／　＼/　　|､　ノ 　 　 ｜｢　￣|　　　￣　| |.　　　/
+.　　 ／／　　　　｜　　|（(/）　　　 _| | ＿_ |_　 　 　 ｜￣＼/
+　／／ 　 　 　 　 | 　 / 　 |　　　 〔_l |　 　 |_〕　 　 　 ￣＼/
+く／　　　　　　　　〉､「　　丿 　 　 /　|　 　 | ヽ
+　　　　　　　　　 /　 丶イ 　 　 　 |　 ヽ.　 /　 |
+　 　 　 　 　 　 /　 /　 ｜　　　　｜　|　Ｌl　|　|
+　　　 　 　 　 / ＼＿＿_〉　 　 　 ヽ、|　　　 ｌ丿
+　　　　　　　 /＼/＿（(/）　　　　　　 |　　 　 ｌ
+　　　　　　 /＼＿_／／　　　　　 　 _|　 　 　 l _
+　　　 　 　 ＼/＿_／ 　 　 　 　 　 〔_||￣￣￣|_〕
+　　　　　　　　　　　　　 　 　 　 　 　 ||ｰ――‐||
+　　　　　　　　　　 　 　 　 　 　 　 　 |ヽ.＿＿ /|
+　　　　　　　　　　 　 　 　 　 　 　 　 ∨＿＿_∨
+-->
+
+<body class="container shadow-lg rounded p-0">
+        <!-- HEADERSAMERE -->
+        <header>
+            <div class="navbar navbar-expand-lg navbar-dark bg-info align-items-center text-white justify-content-between py-4 ">
+                <div class="navbar-brand">
+                    <img src="public/img/iconheader/logo-horizontal-fond-noir-couleur.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <div class="navbar-nav text-center initialism">
+                        <div class="nav-item px-2">
+                            <a href="">
+                                <img src="public/img/iconheader/home-icon.png" height="70px" alt="">
+                            </a>
+                            <p>HOME</p>
+                        </div>
+                        <div class="nav-item px-2">
+                            <a href="">
+                                <img src="public/img/iconheader/packages-icon.png" height="70px" alt="">
+                            </a>
+                            <p>PACKAGES</p>
+                        </div>
+                        <div class="nav-item px-2">
+                            <a href="">
+                                <img src="public/img/iconheader/outils-icon.png" height="70px" alt="">
+                            </a>
+                            <p>OUTILS</p>
+                        </div>
+                        <div class="nav-item px-2">
+                            <a href="">
+                                <img src="public/img/iconheader/projets-icon.png" height="70px"alt="">
+                            </a>
+                            <p>PROJETS</p>
+                        </div>
+                        <div class="nav-item px-2 ">
+                            <a href="">
+                                <img src="public/img/iconheader/temoignages-icon.png" height="70px" alt="">
+                            </a>
+                            <p>TEMOIGNAGES</p>
+                        </div>
+                        <div class="nav-item px-2">
+                            <a href="">
+                                <img src="public/img/iconheader/contact-icon.png" height="70px" alt="">
+                            </a>
+                            <p>CONTACT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters bg-primary py-5 align-items-center ">
+                <div class="col-lg-4 text-center p-0">
+                    <img src="public/img/iconheader/packages.png"  alt="">
+                </div>
+
+                <div class="col-lg-8 text-white p-0 text-center text-lg-left  justify-content-center">
+                    <h1 class="display-4">A chaque étape son pack</h1>
+                    <h2>naïtre, grandir et prospérer.</h2>
+                </div>
+            </div>
+
+        </header>
+        <!-- FIN HEADERSAMERE -->
+
+        <!-- SECTIONS -->
+        <!-- ecl -->
+        <section>
+            <div class="row no-gutters my-5 justify-content-center">
+                <div class="col-md-4 py-3 bg-primary">
+                    <h1 class=" w-100 m-auto text-white text-center display-4">Éclosion</h1>
+                </div>
+            </div>
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-4 text-center">
+                    <img src="public/img/iconPhase/icon-eclosion.png" alt="">
+                </div>
+                <div class="col-lg-8 d-flex h5 text-center text-lg-left  justify-content-center mt-3 mt-lg-0">
+                    <div class="col-9 ">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, odit. Mollitia recusandae quaerat
+                            explicabo odio?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione minima accusantium soluta
+                            adipisci magnam quia ipsum a explicabo molestiae?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters justify-content-center text-center py-5 my-md-5 my-0 bg-warning h5 ">
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/Logo-logo.png" height="80px"alt="">
+                    </a>
+                    <p>logo</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/icon-charte-graphic.png" height="80px"alt="">
+                    </a>
+                    <p>Charte graphique</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/site-single-page.png" height="80px"alt="">
+                    </a>
+                    <p>Site single page</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/carte-visite.png " height="80px"alt="">
+                    </a>
+                    <p>Carte de visite</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- evo -->
+        <section>
+            <div class="row no-gutters my-md-5 mt-0 mb-5 justify-content-center">
+                <div class="col-md-4 py-3 bg-primary ">
+                    <h1 class=" w-100 m-auto text-white text-center display-4">Évolution</h1>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-4 text-center">
+                    <img src="public/img/iconPhase/icon-evolution.png" alt="">
+                </div>
+                <div class="col-lg-8 d-flex h5 text-center text-lg-left  justify-content-center mt-5 mt-lg-0">
+                    <div class="col-9 ">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, odit. Mollitia recusandae quaerat
+                            explicabo odio?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione minima accusantium soluta
+                            adipisci magnam quia ipsum a explicabo molestiae?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="no-gutters row justify-content-center text-center py-5 bg-warning h5 my-md-5 my-0">
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/Logo-logo.png" height="80px" alt="">
+                    </a>
+                    <p>Logo</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/icon-charte-graphic.png" height="80px"alt="">
+                    </a>
+                    <p>Charte graphique</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/site-vitrine.png" height="80px"alt="">
+                    </a>
+                    <p>site vitrine</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/reseaux-sociaux.png" height="80px"alt="">
+                    </a>
+                    <p>réseaux sociaux</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/carte-visite.png" height="80px"alt="">
+                    </a>
+                    <p>Carte de visite</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- env -->
+        <section>
+            <div class="row no-gutters my-md-5 my-0 mb-5 justify-content-center">
+                <div class="col-md-4 py-3 bg-primary">
+                    <h1 class=" w-100 m-auto text-white text-center display-4">Envol</h1>
+                </div>
+            </div>
+            <div class="row no-gutters ">
+                <div class="col-lg-4 text-center">
+                    <img src="public/img/iconPhase/icon-envole.png" alt="">
+                </div>
+                <div class="col-lg-8 d-flex h5 text-center text-lg-left  justify-content-center mt-5 mt-lg-0">
+                    <div class="col-9">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, odit. Mollitia recusandae quaerat
+                            explicabo odio?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione minima accusantium soluta
+                            adipisci magnam quia ipsum a explicabo molestiae?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters  text-center justify-content-center py-5 my-md-5 my-0 bg-warning h5 mt-5 mb-0">
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/icon-analyse-flux-web.png" height="80px" alt="">
+                    </a>
+                    <p>Analyse du flux web</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/icon-campagne-facebook.png" height="80px" alt="">
+                    </a>
+                    <p>Campagne Facebook</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/icon-campagne-facebook.png" height="80px" alt="">
+                    </a>
+                    <p>Campagne Adwords</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="">
+                        <img src="public/img/underPhase/icon-campagne-e-mailing.png " height="80px" alt="">
+                    </a>
+                    <p>Campagne e-mailing</p>
+                </div>
+            </div>
+        </section>
+        <!-- FIN SECTIONS -->
+
+        <!-- FOOTER -->
+        <footer class="bg-success text-white  pt-5 ">
+            <div class="row no-gutters justify-content-between px-5 text-md-left text-center  align-items-center h5 font-weight-bold ">
+                <div class="col-3">
+                    <p>Packs</p>
+                </div>
+                <div class="col-3">
+                    <p>Outils</p>
+                </div>
+                <div class="col-2">
+                    <p>Social media</p>
+                </div>
+            </div>
+            <div class="row no-gutters justify-content-between px-5">
+                <div class="col-3 d-flex flex-md-row flex-column  justify-content-between text-center">
+                    <a href="" class="miniLogo"><img src="public/img/iconPhase/icon-eclosion.png" height="70px" alt=""></a>
+                    <a href="" class="miniLogo"><img src="public/img/iconPhase/icon-evolution.png" height="70px" alt=""></a>
+                    <a href="" class="miniLogo"><img src="public/img/iconPhase/icon-envole.png" height="70px" alt=""></a>
+                </div>
+                <div class="col-3  d-flex flex-md-row flex-column justify-content-between text-center">
+                    <a href="" class="miniLogo"><img src="public/img/underPhase/identite-graphique.png" height="70px" alt=""></a>
+                    <a href="" class="miniLogo"><img src="public/img/underPhase/reseaux-sociaux.png" height="70px" alt=""></a>
+                    <a href="" class="miniLogo"><img src="public/img/underPhase/print.png" height="70px" alt=""></a>
+                </div>
+                <div class="col-2  d-flex flex-md-row flex-column justify-content-md-between text-center">
+                    <a href="" class="miniLogo"><img src="public/img/Social/social-f.png" height="70px" alt=""></a>
+                    <a href="" class="miniLogo"><img src="public/img/Social/google-plus.png" height="70px" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row no-gutters py-5 justify-content-md-end justify-content-center mx-3">
+                <span>C.G.V.</span>
+            </div>
+
+        </footer>
+        <!-- FIN FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!-- bootstrap -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- FIN SCRIPTS -->
+</body>
+
+</html>
